@@ -1,0 +1,16 @@
+.button {
+	display: flex;
+	gap: 0.5em;
+	flex-direction: row-reverse;
+	align-items: center;
+	color: blue;
+	transition: 0.2s ease-out;
+}
+
+.title {
+	font-size: clamp(14px, 2vw, 18px);
+}
+
+.button:hover {
+	color: violet;
+}

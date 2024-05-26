@@ -1,7 +1,16 @@
-import './App.css';
+import ArtImage from '@blocks/ArtImage/ArtImage';
+import Footer from '@blocks/Footer/Footer';
+import Header from '@blocks/Header/Header';
+import Layout from '@layouts/Layout/Layout';
 
 function App() {
-	return <></>;
+	return (
+		<Layout>
+			<Header />
+			<ArtImage />
+			<Footer />
+		</Layout>
+	);
 }
 
 export default App;

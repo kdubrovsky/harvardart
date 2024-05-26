@@ -1,0 +1,9 @@
+.wrapper {
+	margin-left: auto;
+}
+
+@media only screen and (max-width: 640px) {
+	.wrapper {
+		margin-left: 0;
+	}
+}
