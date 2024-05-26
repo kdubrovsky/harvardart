@@ -5,6 +5,9 @@
 	align-items: center;
 	color: blue;
 	transition: 0.2s ease-out;
+	border: 1px solid rgba(0, 0, 255, 0.3);
+	border-radius: 16px;
+	padding: 0.4em 0.8em;
 }
 
 .title {
@@ -13,4 +16,5 @@
 
 .button:hover {
 	color: violet;
+	border: 1px solid rgba(238, 130, 238, 0.6);
 }

@@ -1,21 +1,21 @@
 .footer {
 	align-self: end;
-	padding: 3% 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-size: clamp(12px, 1.5vw, 14px);
+	padding: 3% 0;
+	font-weight: 400;
 }
 
 .link {
 	color: blue;
 	text-decoration: underline;
-	text-decoration-color: blue;
 	transition: 0.2s ease-out;
 	text-underline-offset: 0.5em;
 }
 
 .link:hover {
 	color: violet;
-	text-decoration-color: violet;
 	text-underline-offset: 0.4em;
 }
