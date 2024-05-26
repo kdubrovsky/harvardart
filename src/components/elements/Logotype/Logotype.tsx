@@ -7,7 +7,7 @@ interface LogotypeProps {
 const Logotype = ({ title }: LogotypeProps) => (
 	<div className={css.logotype}>
 		<h1 className='visually-hidden'>{title}</h1>
-		<img src='src/assets/logo.svg' alt={title} />
+		<img src='/images/logo.svg' alt={title} />
 	</div>
 );
 
